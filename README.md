@@ -31,4 +31,4 @@ Because of the dataset particularities the best results came when using the whol
 
 ### Results
 
-<img width="233" alt="model_performance" src="https://user-images.githubusercontent.com/24575360/69679286-c6c15b00-1075-11ea-9f31-5a4811a634d7.png">
+<img width="333" alt="model_performance" src="https://user-images.githubusercontent.com/24575360/69679286-c6c15b00-1075-11ea-9f31-5a4811a634d7.png">
