@@ -32,3 +32,5 @@ Because of the dataset particularities the best results came when using the whol
 ### Results
 
 <img width="333" alt="model_performance" src="https://user-images.githubusercontent.com/24575360/69679286-c6c15b00-1075-11ea-9f31-5a4811a634d7.png">
+
+As shown above, the model had and R2 score of 0.89 and a Mean Absolute Error of around A$132k
