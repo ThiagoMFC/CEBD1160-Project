@@ -42,9 +42,13 @@ Overall, the model had and R2 score of 0.89 and a Mean Absolute Error of around 
 ### Discussion
 
 As said before, the model had a "hit or miss" behaviour, being near perfet in some cases
-<img width="433" alt="model_performance_accurate" src="https://user-images.githubusercontent.com/24575360/69827305-c4c9da00-11e4-11ea-8bf7-bf7280135985.png">
-<img width="433" alt="model_performance_accurate2" src="https://user-images.githubusercontent.com/24575360/69827307-c6939d80-11e4-11ea-888d-031dd05b5824.png">
-<img width="433" alt="model_performance_accurate3" src="https://user-images.githubusercontent.com/24575360/69827310-c98e8e00-11e4-11ea-9588-8b44bd1e95d1.png">
+<img width="433" alt="model_performance_accurate" src="https://user-images.githubusercontent.com/24575360/69827305-c4c9da00-11e4-11ea-8bf7-bf7280135985.png"><br/>
+<img width="433" alt="model_performance_accurate2" src="https://user-images.githubusercontent.com/24575360/69827307-c6939d80-11e4-11ea-888d-031dd05b5824.png"><br/>
+<img width="433" alt="model_performance_accurate3" src="https://user-images.githubusercontent.com/24575360/69827310-c98e8e00-11e4-11ea-9588-8b44bd1e95d1.png"><br/>
+and really far-off in others <br/>
+<img width="433" alt="model_performance_innacurate" src="https://user-images.githubusercontent.com/24575360/69827614-1e7ed400-11e6-11ea-8af7-0023ba9dd86e.png"><br/>
+<img width="433" alt="model_performance_inaccurate2" src="https://user-images.githubusercontent.com/24575360/69827615-20489780-11e6-11ea-905f-467a2f87790c.png"><br/>
+<img width="433" alt="model_performance_inaccurate3" src="https://user-images.githubusercontent.com/24575360/69827617-2179c480-11e6-11ea-98fd-789ba4bcc6fc.png"><br/>
 
 
 After some cleaning, the dataset came down from around 35 thousand entries to just below 9 thousand, which is still a good number but after a deeper exploration, some regions ended up with no more than 20 datapoints. this helps explain why the R2 score was so much higher when using the entire dataset as training rather than a subset of it. It also helps explain why some predictions are so off-target.
