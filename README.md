@@ -31,6 +31,21 @@ Because of the dataset particularities the best results came when using the whol
 
 ### Results
 
+![Real_Value_x_Residual](https://user-images.githubusercontent.com/24575360/69826419-0789b300-11e1-11ea-9ec4-7791c5493cf1.png)
+
+As shown above, the model had a decent performance for values up to around 3 million AUD$ but above that, because of the lack of entry points, it became completely unreliable.
+
 <img width="433" alt="model_performance" src="https://user-images.githubusercontent.com/24575360/69679286-c6c15b00-1075-11ea-9f31-5a4811a634d7.png">
 
-As shown above, the model had and R2 score of 0.89 and a Mean Absolute Error of around A$132k
+Overall, the model had and R2 score of 0.89 and a Mean Absolute Error of around AUD$132k
+
+### Discussion
+
+For regions where we had enough data, the model had near perfet predictions
+
+After some cleaning, the dataset came down from around 35 thousand entries to just below 9 thousand, which is still a good number but after a deeper exploration, some regions ended up with no more than 20 datapoints. this helps explain why the R2 score was so much higher when using the entire dataset as training rather than a subset of it. It also helps explain why some predictions are so off-target.
+
+
+
+
+
