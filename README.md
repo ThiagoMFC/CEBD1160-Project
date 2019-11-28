@@ -6,7 +6,7 @@
 
 ## Resources
 
- * [Python script] (https://github.com/ThiagoMFC/CEBD1160-Project/blob/master/Melbourne.py)
+ * [Python script](https://github.com/ThiagoMFC/CEBD1160-Project/blob/master/Melbourne.py).
  *
  *
  *
