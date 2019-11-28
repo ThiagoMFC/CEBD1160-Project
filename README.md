@@ -25,7 +25,7 @@ This dataset was found on [Kaggle](https://www.kaggle.com/anthonypino/melbourne-
 
 ### Methods
 
-The method chosen was [PolynomialFeatures](https://towardsdatascience.com/polynomial-regression-bbe8b9d97491) with degree 2 from sklearn. this method was chosen because of the complexity of the dataset and Linear Regression alone is prone to underfitting the model in this case.
+The method chosen was [Polynomial Regression](https://towardsdatascience.com/polynomial-regression-bbe8b9d97491) with degree 2. this method was chosen because of the complexity of the dataset and Linear Regression alone is prone to underfitting the model in this case.
 
 Because of the dataset particularities the best results came when using the whole dataset as training dataset.
 
