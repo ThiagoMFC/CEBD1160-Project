@@ -35,7 +35,7 @@ Because of the dataset particularities the best results came when using the whol
 
 As shown above, the model had a decent performance for values up to around 3 million AUD$ but above that, because of the lack of entry points, it became completely unreliable.
 
-Overall, the model had and R2 score of 0.89 and a Mean Absolute Error of around AUD$132k
+Overall, the model had and R2 score of 0.89 and a Mean Absolute Error of around AUD$130k
 
 ### Discussion
 
