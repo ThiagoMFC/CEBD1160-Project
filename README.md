@@ -17,7 +17,7 @@
  
  ### Abstract
  
-From the Melbourne Housing Market dataset we can have an insight of the situation of the real estate market in Melbourne, Australia. With it we can understand what makes up the value of properties and create a tool to find the best possible value to help both sellers and buyers. In this exercise we tried to create a model to predict the value of those properties based on the properties features as well as the region where they are located. In the current state the model displays a "hit or miss" behavior, mostly due to the dataset itself caused by the lack of entries with a determined set of features. 
+From the Melbourne Housing Market dataset we can have an insight of the situation of the real estate market in Melbourne, Australia. With it we can understand what makes up the value of properties and create a tool to find the best possible value to help both sellers and buyers. In this exercise we tried to create a model to predict the value of those properties based on their features as well as the region where they are located. In the current state the model displays a "hit or miss" behavior, mostly due to a lack of entries with a determined set of features. 
 
 ### Introduction
 
@@ -35,8 +35,6 @@ Because of the dataset particularities the best results came when using the whol
 
 As shown above, the model had a decent performance for values up to around 3 million AUD$ but above that, because of the lack of entry points, it became completely unreliable.
 
-<img width="433" alt="model_performance" src="https://user-images.githubusercontent.com/24575360/69679286-c6c15b00-1075-11ea-9f31-5a4811a634d7.png">
-
 Overall, the model had and R2 score of 0.89 and a Mean Absolute Error of around AUD$132k
 
 ### Discussion
@@ -50,8 +48,9 @@ and really far-off in others <br/>
 <img width="433" alt="model_performance_inaccurate2" src="https://user-images.githubusercontent.com/24575360/69827615-20489780-11e6-11ea-905f-467a2f87790c.png"><br/>
 <img width="433" alt="model_performance_inaccurate3" src="https://user-images.githubusercontent.com/24575360/69827617-2179c480-11e6-11ea-98fd-789ba4bcc6fc.png"><br/>
 
+This is is caused by some regions that after the data cleaning ended up with no more than 20 datapoints. this also helps explain why the R2 score was so much higher when using the entire dataset as training rather than a subset of it.
 
-After some cleaning, the dataset came down from around 35 thousand entries to just below 9 thousand, which is still a good number but after a deeper exploration, some regions ended up with no more than 20 datapoints. this helps explain why the R2 score was so much higher when using the entire dataset as training rather than a subset of it. It also helps explain why some predictions are so off-target.
+One way to improve this model could be instead of dropping rows with null values, we could split the dataset into those different regions and infer the missing values to potencially have more datapoints for every region.
 
 
 
