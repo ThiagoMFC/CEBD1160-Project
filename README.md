@@ -8,8 +8,8 @@
 
  * [Python script](https://github.com/ThiagoMFC/CEBD1160-Project/blob/master/Melbourne.py)
  * [Results](https://github.com/ThiagoMFC/CEBD1160-Project/tree/master/plots)
- * [Dockerfile] (https://github.com/ThiagoMFC/CEBD1160-Project/blob/master/Dockerfile)
- *
+ * [Dockerfile](https://github.com/ThiagoMFC/CEBD1160-Project/blob/master/Dockerfile)
+ * [RUNME.md](https://github.com/ThiagoMFC/CEBD1160-Project/blob/master/RUNME.md)
  
 ## Research Question
 
