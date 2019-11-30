@@ -48,12 +48,13 @@ and really far-off in others <br/>
 <img width="433" alt="model_performance_inaccurate2" src="https://user-images.githubusercontent.com/24575360/69827615-20489780-11e6-11ea-905f-467a2f87790c.png"><br/>
 <img width="433" alt="model_performance_inaccurate3" src="https://user-images.githubusercontent.com/24575360/69827617-2179c480-11e6-11ea-98fd-789ba4bcc6fc.png"><br/>
 
-This is is caused by some regions that after the data cleaning ended up with no more than 20 datapoints. this also helps explain why the R2 score was so much higher when using the entire dataset as training rather than a subset of it.
+This happened because some regions ended up with no more than 20 datapoints after the data cleaning. this also helps explain why the R2 score was so much higher when using the entire dataset as training rather than a subset of it.
 
 One way to improve this model could be instead of dropping rows with null values, we could split the dataset into those different regions and infer the missing values to potencially have more datapoints for every region.
 
+### References
 
-
+All linked in previous topics
 
 
 
